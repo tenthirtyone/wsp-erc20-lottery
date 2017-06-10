@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <title>Truffle Box</title>
+  </head>
+  <body>
+    <div className="App">
+      <main className="container">
+        <div className="pure-g">
+          <div className="pure-u-1 content">
+            <h1>Welcome to the Lottery Faucet</h1>
+            <p>There have been <span id="FaucetCount"> </span> requests to the faucet so far</p>
+            <p>Wisp has been paid up to #<span id="FaucetIndex"> </span></p>
+            <div id="Statistics">
+
+            </div>
+            <select id="Accounts">
+
+            </select>
+            <button id="FaucetSubmit">Get some Lotto Tickets</button>
+            <div id="AddressList">
+
+            </div>
+            <div id="Logs">
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+  </body>
+</html>

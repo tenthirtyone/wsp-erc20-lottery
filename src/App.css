@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 12px;
+  font-family: sans-serif;
+}
+
+
+#Logs div {
+  font-size: 11px;
+  border-bottom: solid 1px black;
+}
+
+.round-finished {
+  background-color: #a4c2f4;
+}
+
+.new-round {
+  background-color: #b6d7a8;
+}
+
+.lottery-paid {
+  background-color: #d5a6bd;
+}
+
+.faucet-add {
+  background-color: #ffe599;
+}
